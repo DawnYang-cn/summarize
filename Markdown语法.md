@@ -13,7 +13,9 @@ Setext格式是用下划线来表示两级标题，效果就像下面这样：
 javascript
 This is title
 ============
-'''This is title
+'''
+javascript
+This is title
 ------------'''
 
 This is title
