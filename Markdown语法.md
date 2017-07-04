@@ -9,14 +9,12 @@
 Markdown支持两种标题语法：Setext和atx
 Setext格式是用下划线来表示两级标题，效果就像下面这样：
 
-'''
+```
 javascript
 This is title
 ============
-'''
-javascript
 This is title
-------------'''
+------------```
 
 This is title
 =============
