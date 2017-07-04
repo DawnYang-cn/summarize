@@ -6,8 +6,8 @@
 
 ### Markdown语法
 #### 标题
-Markdown支持两种标题语法：Setext和atx
-Setext格式是用下划线来表示两级标题，效果就像下面这样：
+Markdown支持两种标题语法：Setext和Atx
+Setext格式是用下划线来表示两级标题，效果就是下面这样：
 ```
 This is title
 ============
@@ -18,3 +18,15 @@ This is title
 =============
 This is title
 -------------
+Atx格式是使用1-6个#来表达6级标题，效果是下面这样：
+```
+#title
+###title
+######title
+#######title
+```
+# title
+### title
+###### title
+####### title
+很明显当我们输入7个#的时候没有用了
