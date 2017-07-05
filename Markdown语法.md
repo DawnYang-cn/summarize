@@ -91,7 +91,7 @@ Atx格式是使用1-6个#来表达6级标题，代码是下面这样：
 `
 JavaScript
 `
-<code>
+<pre><code>
 JavaScript
-</code>
+</code></pre>
 
