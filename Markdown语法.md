@@ -60,6 +60,8 @@ Click [github](http://github.com)
 ```
 
 Click [github](http://github.com)
+类似的，我们还可以添加图片
+![](https://avatars3.githubusercontent.com/u/9919?v=3&s=200)
 
 
 ### 列表
