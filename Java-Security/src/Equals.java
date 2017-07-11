@@ -1,4 +1,8 @@
+import com.sun.tools.corba.se.idl.constExpr.Equal;
+
 public class Equals{
+
+    private int a = 1;
     public static void main(String[] args){
         String s1 = "str";
         String s2 = "str";
@@ -47,6 +51,14 @@ public class Equals{
         }
         else{
             System.out.println("s1 equals s3 不成立");
+        }
+
+        Equals e1 = new Equals();
+        System.out.println(e1);
+        Equals e2 = new Equals();
+        System.out.println(e2);
+        if(e1.equals(e2)){
+            System.out.println("e1 equals e2");
         }
 
     }
