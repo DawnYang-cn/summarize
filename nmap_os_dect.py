@@ -20,7 +20,7 @@ def getIplist(ip_range):
 def scan(ip_list):
     nm = nmap.PortScanner()
     for ip in ip_list:
-        print('scanning '+ip)
+        print('\r scanning '+ip+' ',end='')
         nm.scan(hosts=ip,arguments='-sS -O')
         try:
             result = ip + " : " + nm[ip]['osmatch'][0]['osclass'][0]['osfamily']
